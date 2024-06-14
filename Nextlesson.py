@@ -1,0 +1,33 @@
+tuple_lokasi = ("Jakarta", -6.2088, 106.8456)
+print("Kota =", tuple_lokasi[0])
+print("lintang =", tuple_lokasi[1])
+print("bujur =", tuple_lokasi[2])
+print("  ")
+
+Tuple_Produk = ("Laptop", 15000000, 20)
+print("Produk:", Tuple_Produk[0])
+print("Harga Produk:", Tuple_Produk[1])
+print("Stok Tersisa:", Tuple_Produk[2])
+print("   ")
+
+tuple_karyawan = ("ALice", "Engineering", 5)
+print("Nama Karywan:", tuple_karyawan[0])
+print("Departmen:", tuple_karyawan[1])
+print("Masa Kerja:", tuple_karyawan[2], "Tahun")
+print("    ")
+
+tuple_db_config = ("localhost", "Admin", "Password", "Database_Nama")
+print("Host:", tuple_db_config[0])
+print("Username:", tuple_db_config[1])
+print("Password", tuple_db_config[2])
+print("DataBase:", tuple_db_config[3])
+print("   ")
+
+tuple_mahasiswa = ("Bob", "Matematika", [85, 90, 92])
+print("Nama Siswa:", tuple_mahasiswa[0])
+print("Jurusan:", tuple_mahasiswa[1])
+print("Nilai:", tuple_mahasiswa[2])
+List_2 = list(tuple_mahasiswa)
+List_2[2][1] = 100 
+tuple_mahasiswa = tuple(List_2)
+print(tuple_mahasiswa)
